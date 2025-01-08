@@ -1,0 +1,137 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1112px;
+}
+
+
+h1 {
+    color: rgb(147, 156, 164);
+    text-align: center;
+    font-size: 19px;
+    width: 450px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+.link-logo {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+a {
+    padding-right: 10px;
+    position: relative;
+    text-decoration: underline;
+}
+
+a:nth-child(1)::before {
+    position: absolute;
+    bottom: 15px;
+    left: 12px;
+    content:url(./img/facebook.png);
+}
+
+a:nth-child(2)::before {
+    position: absolute;
+    bottom: 15px;
+    left: 19px;
+    content:url(./img/vk.png);
+}
+
+a:nth-child(3)::before {
+    position: absolute;
+    bottom: 15px;
+    left: 19px;
+    content:url(./img/livejournal.png);
+}
+
+a:nth-child(4)::before {
+    position: absolute;
+    bottom: 15px;
+    left: 3px;
+    content:url(./img/twitter.png);
+}
+
+a:nth-child(5)::before {
+    position: absolute;
+    bottom: 15px;
+    left: 3px;
+    content:url(./img/google.png);
+}
+
+a:nth-child(6)::before {
+    position: absolute;
+    bottom: 15px;
+    left: 9px;
+    content:url(./img/yandex.png);
+}
+
+a:nth-child(7)::before {
+    position: absolute;
+    bottom: 15px;
+    left: 8px;
+    content:url(./img/mail_icon_130883.png)
+}
+
+a:nth-child(8)::before {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    content:url(./img/logo.png);
+}
+
+p{
+    text-align: center;
+    color: rgb(147, 156, 164);
+    font-size: 10px;
+    margin: 30px 0;
+}
+form>p{
+    color:black;
+    font-weight: bold;
+}
+
+hr{
+    border:none;
+    border-top:3px solid rgb(247, 243, 243, 0.5);
+    text-align: center;
+    color: black;
+    overflow: visible;
+    margin: 0 15px;
+}
+
+hr::after{
+    content: 'или всё таки зарегестрироваться?';
+    font-weight: bold;
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+    top: -12px;
+    padding: 0 10px;
+}
+
+.form-name,.form-email{
+    margin: 0 auto;
+    width: 45%;
+}
+
+input{
+    padding: 5px 30px;
+    margin: 5px 0px;
+}
+
+input[type="submit"]{
+    position: relative;
+    bottom: 19px;
+    left: 30px;
+    padding: 5px 34px;
+    background:#1616dfb8;
+    color:#fff;
+}
